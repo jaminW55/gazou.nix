@@ -8,8 +8,8 @@ stdenv.mkDerivation rec {
   src = fetchFromGitHub {
     owner = "kamui-fin";
     repo = "gazou";
-    rev = "2114963698c94ec7e8f9023f8b6dbfa8437337de"; # Commit Hash
-    sha256 = "sha256-CiIQNwL+vrCLgmOdPt6OaS0dJfw46lhM9u4hUSlTW5I="; # Let it error out to provide correct sha256
+    rev = "2114963698c94ec7e8f9023f8b6dbfa8437337de";
+    sha256 = "sha256-CiIQNwL+vrCLgmOdPt6OaS0dJfw46lhM9u4hUSlTW5I=";
     fetchSubmodules = true;
   };
 
