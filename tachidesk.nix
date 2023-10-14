@@ -32,7 +32,7 @@ stdenv.mkDerivation rec {
     Name=Tachidesk-Server
     Comment=Start Tachidesk Server
     Exec=$out/bin/Tachidesk-Server
-    Icon=your-icon-here
+    Icon=https://github.com/jaminW55/japanese-packages/blob/main/tachidesk_logo.jpeg
     Terminal=true
     Type=Application
     Categories=Utility;
